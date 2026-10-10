@@ -1,0 +1,51 @@
+    .text       start:0x0222b240 end:0x02254650 kind:code align:32
+    .rodata     start:0x02254650 end:0x02256f48 kind:rodata align:4
+    .ctor       start:0x02256f48 end:0x02256f48 kind:rodata align:4
+    .data       start:0x02256f60 end:0x0225a760 kind:data align:32
+    .bss        start:0x0225a760 end:0x02263800 kind:bss align:32
+
+src/battle/battle_mode/map_scroll.c:
+    .text       start:0x0222b240 end:0x0222bac8
+
+src/battle/battle_mode/battle_map.c:
+    .text       start:0x0222bac8 end:0x0222c3bc
+
+src/battle/battle_mode/turn_order.c:
+    .text       start:0x02247240 end:0x0224b4d4
+
+src/battle/battle_mode/battle_bg.c:
+    .text       start:0x0224b4d4 end:0x0224bd58
+
+src/battle/battle_mode/battle.c:
+    .text       start:0x0224bd58 end:0x0224c8f4
+
+src/battle/battle_mode/enemy_ai.c:
+    .text       start:0x0225018c end:0x02250f14
+
+src/battle/battle_mode/movie.c:
+    .text       start:0x02250f14 end:0x022518a8
+
+src/battle/battle_mode/link_setup.c:
+    .text       start:0x022518a8 end:0x0225427c
+
+src/battle/battle_mode/link_wait.c:
+    complete
+    .text       start:0x0225427c end:0x02254650
+
+src/battle/battle_mode/start_battle.c:
+    .text       start:0x0224c8f4 end:0x0224d15c
+
+src/battle/battle_mode/panels.c:
+    .text       start:0x02242e0c end:0x02247240
+
+src/battle/battle_mode/battle_end.c:
+    .text       start:0x02230abc end:0x0223764c
+
+src/battle/battle_mode/enemy_marks.c:
+    .text       start:0x0223764c end:0x02242e0c
+
+src/battle/battle_mode/ov002_0224f520.c:
+    .text       start:0x0224f520 end:0x0225018c
+
+src/battle/battle_mode/ov002_0224d15c.c:
+    .text       start:0x0224d15c end:0x0224f520

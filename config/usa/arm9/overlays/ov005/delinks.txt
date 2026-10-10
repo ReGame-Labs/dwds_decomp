@@ -1,0 +1,70 @@
+    .text       start:0x0227b480 end:0x02294f48 kind:code align:32
+    .rodata     start:0x02294f48 end:0x022a1b8c kind:rodata align:4
+    .ctor       start:0x022a1b8c end:0x022a1b8c kind:rodata align:4
+    .data       start:0x022a1ba0 end:0x022a1d00 kind:data align:32
+    .bss        start:0x022a1d00 end:0x022a1e40 kind:bss align:32
+
+src/farm/goods_list.c:
+    .text       start:0x0227b480 end:0x0227bcec
+
+src/farm/item_info.c:
+    .text       start:0x0227bcec end:0x0227c51c
+
+src/farm/results_food.c:
+    .text       start:0x0227cf04 end:0x0227d7dc
+
+src/farm/results.c:
+    .text       start:0x0227d7dc end:0x0227eddc
+
+src/farm/open_results.c:
+    .text       start:0x0227eddc end:0x0227f688
+
+src/farm/panel_pick_farm.c:
+    .text       start:0x022829d0 end:0x02284380
+
+src/farm/open_pick_farm.c:
+    .text       start:0x02284380 end:0x02284fd4
+
+src/farm/farm_screen.c:
+    .text       start:0x02284fd4 end:0x02289004
+
+src/farm/goods_panel.c:
+    .text       start:0x02289004 end:0x0228d6ac
+
+src/farm/event_script.c:
+    .text       start:0x0228f048 end:0x0228f8a8
+
+src/farm/effects.c:
+    .text       start:0x0228f8a8 end:0x022908b4
+
+src/farm/checks.c:
+    .text       start:0x02291a34 end:0x02292750
+
+src/farm/farms.c:
+    complete
+    .text       start:0x02293b34 end:0x02294a48
+
+src/farm/farm_queries.c:
+    complete
+    .text       start:0x02294a48 end:0x02294f48
+
+src/farm/stats_window.c:
+    .text       start:0x0227c51c end:0x0227cf04
+
+src/farm/panel_digimon.c:
+    .text       start:0x0227f688 end:0x02280098
+
+src/farm/exit_question.c:
+    .text       start:0x02292750 end:0x02293b34
+
+src/farm/panel_pages.c:
+    .text       start:0x02280d24 end:0x022829d0
+
+src/farm/goods_placing.c:
+    .text       start:0x0228d6ac end:0x0228f048
+
+src/farm/events.c:
+    .text       start:0x022908b4 end:0x02291a34
+
+src/farm/panel_status.c:
+    .text       start:0x02280098 end:0x02280d24

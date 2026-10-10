@@ -1,0 +1,45 @@
+{
+  "$schema": "https://recomp.fyi/schema/v1.json",
+  "game": "Digimon World DS",
+  "wikidata": "Q1071044",
+  "system": "NDS",
+  "type": "decomp",
+  "original": [
+    {
+      "region": "USA",
+      "serial": "NTR-ADNE-USA",
+      "sha1": "225ffc25aaf1ab4006fcdce5896d411a8fee870f"
+    }
+  ],
+  "project": "Digimon World DS decompilation",
+  "status": "in-progress",
+  "targets": [
+    "NDS"
+  ],
+  "toolchain": "dsd",
+  "approach": "Matching decompilation with mwccarm 1.2/sp4 and dsd, byte-identical to the North American ROM's modules",
+  "maintainers": [
+    {
+      "name": "ReGame-Labs",
+      "link": "https://github.com/ReGame-Labs"
+    }
+  ],
+  "links": [
+    {
+      "label": "GitHub",
+      "url": "https://github.com/ReGame-Labs/dwds_decomp"
+    }
+  ],
+  "help": [
+    "Decompiling the game's functions",
+    "Naming functions, data and struct fields",
+    "Readability of the matched C"
+  ],
+  "tags": [
+    "matching",
+    "mwcc",
+    "dsd",
+    "nitrosdk"
+  ],
+  "notes": "Built from the North American release (ADNE). Every module of the ROM already rebuilds byte for byte, with the code that isn't C yet delinked from the original by dsd. Of the game's own code (libraries left out), 2386 of 3665 functions (65.1%) and 244,568 of 1,065,540 code bytes (23.0%) are matching C so far."
+}

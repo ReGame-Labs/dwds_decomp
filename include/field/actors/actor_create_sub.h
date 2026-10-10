@@ -1,0 +1,8 @@
+#ifndef FIELD_ACTORS_ACTOR_CREATE_SUB_H
+#define FIELD_ACTORS_ACTOR_CREATE_SUB_H
+
+#include "types.h"
+
+s32 func_020c7ed8();
+
+#endif /* FIELD_ACTORS_ACTOR_CREATE_SUB_H */

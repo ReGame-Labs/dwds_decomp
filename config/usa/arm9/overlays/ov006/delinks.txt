@@ -1,0 +1,137 @@
+    .text       start:0x0227b480 end:0x0229ef60 kind:code align:32
+    .rodata     start:0x0229ef60 end:0x0229f3ec kind:rodata align:4
+    .ctor       start:0x0229f3ec end:0x0229f3ec kind:rodata align:4
+    .data       start:0x0229f400 end:0x0229f420 kind:data align:32
+    .bss        start:0x0229f420 end:0x0229f960 kind:bss align:32
+
+src/menus/digimon/tamer_play_time.c:
+    .text       start:0x0227b480 end:0x0227bd1c
+
+src/menus/digimon/tamer_screen.c:
+    .text       start:0x0227bd1c end:0x0227cbd0
+
+src/menus/digimon/item_menu_choices.c:
+    .text       start:0x0227f7e4 end:0x0228011c
+
+src/menus/digimon/item_menu.c:
+    .text       start:0x0228011c end:0x02281618
+
+src/menus/digimon/item_menu_open.c:
+    .text       start:0x02281618 end:0x02281f70
+
+src/menus/digimon/ov006_0228666c.c:
+    .text       start:0x0228666c end:0x022873d0
+
+src/menus/digimon/digimon_menu_pages.c:
+    .text       start:0x022873d0 end:0x02287ca4
+
+src/menus/digimon/digimon_menu_status.c:
+    .text       start:0x02287ca4 end:0x02288698
+
+src/menus/digimon/digimon_menu.c:
+    .text       start:0x02288698 end:0x0228a6d8
+
+src/menus/digimon/ov006_0228b1f8.c:
+    .text       start:0x0228b1f8 end:0x0228c2ec
+
+src/menus/digimon/status_screen_pages.c:
+    .text       start:0x0228c2ec end:0x0228caf4
+
+src/menus/digimon/status_screen.c:
+    .text       start:0x0228caf4 end:0x0228e054
+
+src/menus/digimon/status_screen_open.c:
+    .text       start:0x0228e054 end:0x0228e900
+
+src/menus/digimon/learn_trait_menu.c:
+    .text       start:0x0228e900 end:0x02290058
+
+src/menus/digimon/learn_trait_menu_open.c:
+    .text       start:0x02290058 end:0x02290ccc
+
+src/menus/digimon/digivolve_tree.c:
+    .text       start:0x0229336c end:0x02293dd8
+
+src/menus/digimon/digivolve_screen.c:
+    .text       start:0x02294614 end:0x02296c3c
+
+src/menus/digimon/digivolve_screen_open.c:
+    .text       start:0x02296c3c end:0x02297d74
+
+src/menus/digimon/guide_slides.c:
+    .text       start:0x02297d74 end:0x02298598
+
+src/menus/digimon/guide_data.c:
+    .text       start:0x0229914c end:0x022999f8
+
+src/menus/digimon/guide_windows.c:
+    .text       start:0x0229b75c end:0x0229c04c
+
+src/menus/digimon/guide_graphics.c:
+    .text       start:0x0229c04c end:0x0229c9fc
+
+src/menus/digimon/guide.c:
+    .text       start:0x0229c9fc end:0x0229e2d0
+
+src/menus/digimon/guide_close.c:
+    .text       start:0x0229ed00 end:0x0229ef60
+
+src/menus/digimon/guide_orders.c:
+    .text       start:0x022999f8 end:0x0229a228
+
+src/menus/digimon/item_second_list.c:
+    .text       start:0x0227cbd0 end:0x0227d600
+
+src/menus/digimon/item_menu_popups.c:
+    .text       start:0x0227e520 end:0x0227ed84
+
+src/menus/digimon/item_first_list.c:
+    .text       start:0x0227ed84 end:0x0227f7e4
+
+src/menus/digimon/digimon_menu_open.c:
+    .text       start:0x0228a6d8 end:0x0228b1f8
+
+src/menus/digimon/digimon_menu_tabs.c:
+    .text       start:0x02284744 end:0x02284f74
+
+src/menus/digimon/ov006_02281f70.c:
+    .text       start:0x02281f70 end:0x02282850
+
+src/menus/digimon/tab_list3.c:
+    .text       start:0x02282850 end:0x022832a8
+
+src/menus/digimon/tab_list2.c:
+    .text       start:0x022832a8 end:0x02283cf4
+
+src/menus/digimon/technique_rows.c:
+    .text       start:0x02285858 end:0x0228666c
+
+src/menus/digimon/guide_tabs.c:
+    .text       start:0x0229a228 end:0x0229ac6c
+
+src/menus/digimon/guide_list.c:
+    .text       start:0x0229ac6c end:0x0229b75c
+
+src/menus/digimon/tab_list1.c:
+    .text       start:0x02283cf4 end:0x02284744
+
+src/menus/digimon/equip_rows.c:
+    .text       start:0x02284f74 end:0x02285858
+
+src/menus/digimon/digivolve_preview.c:
+    .text       start:0x022928f0 end:0x0229336c
+
+src/menus/digimon/guide_window_texts.c:
+    .text       start:0x02298598 end:0x0229914c
+
+src/menus/digimon/item_menu_icons.c:
+    .text       start:0x0227d600 end:0x0227e520
+
+src/menus/digimon/guide_open.c:
+    .text       start:0x0229e2d0 end:0x0229ed00
+
+src/menus/digimon/digivolve_texts.c:
+    .text       start:0x02291814 end:0x022928f0
+
+src/menus/digimon/digivolve_tree_sprites.c:
+    .text       start:0x02293dd8 end:0x02294614

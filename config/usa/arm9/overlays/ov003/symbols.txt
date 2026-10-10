@@ -1,0 +1,28 @@
+EVENT_SCRIPTS kind:data(any) addr:0x0222b240 ambiguous
+data_ov003_022300ad kind:data(any) addr:0x022300ad
+data_ov003_02230119 kind:data(any) addr:0x02230119
+data_ov003_02230222 kind:data(any) addr:0x02230222
+data_ov003_02230223 kind:data(any) addr:0x02230223
+data_ov003_0223023d kind:data(any) addr:0x0223023d
+data_ov003_022400ad kind:data(any) addr:0x022400ad
+data_ov003_02240224 kind:data(any) addr:0x02240224
+data_ov003_0224023e kind:data(any) addr:0x0224023e
+data_ov003_02248001 kind:data(any) addr:0x02248001
+data_ov003_02250024 kind:data(any) addr:0x02250024
+data_ov003_022500ad kind:data(any) addr:0x022500ad
+data_ov003_02250119 kind:data(any) addr:0x02250119
+data_ov003_02250224 kind:data(any) addr:0x02250224
+data_ov003_02250225 kind:data(any) addr:0x02250225
+data_ov003_02260004 kind:data(any) addr:0x02260004 ambiguous
+data_ov003_022600ad kind:data(any) addr:0x022600ad
+data_ov003_02260119 kind:data(any) addr:0x02260119
+data_ov003_02260212 kind:data(any) addr:0x02260212 ambiguous
+data_ov003_02260226 kind:data(any) addr:0x02260226 ambiguous
+data_ov003_02260240 kind:data(any) addr:0x02260240 ambiguous
+data_ov003_02270004 kind:data(any) addr:0x02270004
+data_ov003_022700ad kind:data(any) addr:0x022700ad
+data_ov003_02270119 kind:data(any) addr:0x02270119
+data_ov003_02270226 kind:data(any) addr:0x02270226
+data_ov003_02270227 kind:data(any) addr:0x02270227
+data_ov003_02278001 kind:data(any) addr:0x02278001
+data_ov003_0227b460 kind:data(any) addr:0x0227b460

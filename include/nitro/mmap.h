@@ -1,0 +1,28 @@
+#ifndef NITRO_MMAP_H
+#define NITRO_MMAP_H
+
+/* The ARM9's memory map, as NitroSDK names it. DB_ is the sub screen's. */
+
+#define HW_BG_PLTT 0x05000000
+#define HW_OBJ_PLTT 0x05000200
+#define HW_DB_BG_PLTT 0x05000400
+#define HW_DB_OBJ_PLTT 0x05000600
+#define HW_BG_PLTT_SIZE 0x200
+#define HW_OBJ_PLTT_SIZE 0x200
+
+#define HW_BG_VRAM 0x06000000
+#define HW_DB_BG_VRAM 0x06200000
+#define HW_OBJ_VRAM 0x06400000
+#define HW_DB_OBJ_VRAM 0x06600000
+#define HW_LCDC_VRAM 0x06800000
+#define HW_BG_VRAM_SIZE 0x80000
+#define HW_DB_BG_VRAM_SIZE 0x20000
+#define HW_OBJ_VRAM_SIZE 0x40000
+#define HW_DB_OBJ_VRAM_SIZE 0x20000
+#define HW_LCDC_VRAM_SIZE 0xA4000
+
+#define HW_OAM 0x07000000
+#define HW_DB_OAM 0x07000400
+#define HW_OAM_SIZE 0x400
+
+#endif /* NITRO_MMAP_H */

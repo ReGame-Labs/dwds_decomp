@@ -1,0 +1,23 @@
+    .text       start:0x021f9be0 end:0x021ffa48 kind:code align:32
+    .rodata     start:0x021ffa48 end:0x022012f4 kind:rodata align:4
+    .ctor       start:0x022012f4 end:0x022012f4 kind:rodata align:4
+    .data       start:0x02201300 end:0x02208ce0 kind:data align:32
+    .bss        start:0x02208ce0 end:0x0222b240 kind:bss align:32
+
+src/battle/characters/chr_draw.c:
+    .text       start:0x021f9be0 end:0x021faf38
+
+src/battle/characters/chr.c:
+    .text       start:0x021faf38 end:0x021fc894
+
+src/battle/characters/chr_system.c:
+    .text       start:0x021fc894 end:0x021fdd34
+
+src/battle/characters/fade_sprite_slot.c:
+    .text       start:0x021fe548 end:0x021ff7c4
+
+src/battle/characters/move_script.c:
+    .text       start:0x021ff7c4 end:0x021ffa48
+
+src/battle/characters/bg_effect_files.c:
+    .text       start:0x021fdd34 end:0x021fe548

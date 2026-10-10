@@ -1,0 +1,5 @@
+data_027c0000 kind:data(any) addr:0x027c0000
+data_027c0008 kind:data(any) addr:0x027c0008
+data_027c0009 kind:data(any) addr:0x027c0009
+data_027c000a kind:data(any) addr:0x027c000a
+data_027c0026 kind:data(any) addr:0x027c0026

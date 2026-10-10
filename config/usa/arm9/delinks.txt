@@ -1,0 +1,477 @@
+    .text       start:0x02000000 end:0x0210396c kind:code align:32
+    .rodata     start:0x0210396c end:0x021285d8 kind:rodata align:4
+    .ctor       start:0x021285d8 end:0x021285d8 kind:rodata align:4
+    .data       start:0x021285e0 end:0x0213a540 kind:data align:32
+    .bss        start:0x0213a540 end:0x021f9be0 kind:bss align:32
+
+src/engine/sprite/sprite_draw.c:
+    .text       start:0x0203e77c end:0x0203f084
+
+src/engine/input/touch.c:
+    complete
+    .text       start:0x0203b960 end:0x0203bf20
+
+src/engine/debug/debug_print.c:
+    .text       start:0x0203bf20 end:0x0203cb24
+
+src/engine/system/system.c:
+    .text       start:0x0203cb24 end:0x0203dcf4
+
+src/engine/movie/movie_player.c:
+    .text       start:0x0203dcf4 end:0x0203e77c
+
+src/engine/sprite/sprite.c:
+    .text       start:0x0203f8b0 end:0x020400f8
+
+src/engine/sprite/sprite_create.c:
+    .text       start:0x02040c38 end:0x02041504
+
+src/engine/bg/bg_screen.c:
+    .text       start:0x02041504 end:0x02041ecc
+
+src/engine/bg/bg_screen_task.c:
+    .text       start:0x02041ecc end:0x020427c4
+
+src/engine/bg/bg_load.c:
+    .text       start:0x020427c4 end:0x02042fdc
+
+src/engine/ui/dial.c:
+    .text       start:0x02042fdc end:0x02043a68
+
+src/engine/gfx/gfx_files.c:
+    .text       start:0x02043a68 end:0x0204448c
+
+src/engine/system/setup.c:
+    .text       start:0x0204448c end:0x02045084
+
+src/engine/ui/captions.c:
+    .text       start:0x02045084 end:0x020459ec
+
+src/menus/digiconvert/convert_captions.c:
+    .text       start:0x020459ec end:0x020469f0
+
+src/menus/digiconvert/convert_scene.c:
+    .text       start:0x020469f0 end:0x020474b8
+
+src/menus/digimon/menu_digivolve.c:
+    .text       start:0x020474b8 end:0x0204801c
+
+src/engine/bg/bg_affine.c:
+    .text       start:0x0204801c end:0x020489b8
+
+src/menus/field_menu/party_panel.c:
+    .text       start:0x02049824 end:0x0204a4d4
+
+src/menus/field_menu/field_menu.c:
+    .text       start:0x0204a4d4 end:0x0204b754
+
+src/menus/widgets/scroll_bar.c:
+    .text       start:0x0204b754 end:0x0204bf80
+
+src/menus/widgets/text_list.c:
+    .text       start:0x0204bf80 end:0x0204c7b8
+
+src/menus/widgets/compare_colors.c:
+    .text       start:0x0204d144 end:0x0204d9cc
+
+src/menus/widgets/status_window.c:
+    .text       start:0x02058590 end:0x02059028
+
+src/menus/widgets/digimon_detail.c:
+    .text       start:0x02059acc end:0x0205a2f0
+
+src/menus/widgets/window_anim.c:
+    .text       start:0x0205a2f0 end:0x0205afa4
+
+src/menus/widgets/menu_displays.c:
+    .text       start:0x0205afa4 end:0x0205b8ac
+
+src/items/inventory.c:
+    .text       start:0x0205c8ec end:0x0205d750
+
+src/menus/digiconvert/digiconvert_data.c:
+    .text       start:0x0205d750 end:0x0205e638
+
+src/menus/digiconvert/digiconvert_buttons.c:
+    .text       start:0x0205e638 end:0x0205ee44
+
+src/menus/digiconvert/digiconvert_view.c:
+    .text       start:0x0205ee44 end:0x0205f6b0
+
+src/menus/digiconvert/digiconvert.c:
+    .text       start:0x0205f6b0 end:0x02061a68
+
+src/menus/digiconvert/digiconvert_open.c:
+    .text       start:0x02061a68 end:0x020625d8
+
+src/engine/save/save_data.c:
+    .text       start:0x020625d8 end:0x02062ec0
+
+src/menus/save/save_menu.c:
+    .text       start:0x02062ec0 end:0x02063ec0
+
+src/link/exchange_screen.c:
+    .text       start:0x02063ec0 end:0x02064e84
+
+src/link/exchange_panels_task.c:
+    .text       start:0x02068174 end:0x02068a00
+
+src/link/exchange.c:
+    .text       start:0x02068a00 end:0x02069dcc
+
+src/link/exchange_programs.c:
+    .text       start:0x02069dcc end:0x0206aaa4
+
+src/link/exchange_start.c:
+    .text       start:0x0206aaa4 end:0x0206b480
+
+src/link/link_screen.c:
+    .text       start:0x0206ec70 end:0x0207198c
+
+src/link/link_session.c:
+    .text       start:0x0207198c end:0x020722f0
+
+src/link/link_start.c:
+    .text       start:0x020722f0 end:0x02072e34
+
+src/link/wifi_friend_code.c:
+    .text       start:0x02072e34 end:0x020736a4
+
+src/link/wifi_friend_roster_data.c:
+    .text       start:0x020736a4 end:0x02074130
+
+src/link/wifi_friend_roster.c:
+    .text       start:0x02074130 end:0x02075098
+
+src/link/wifi_connect.c:
+    .text       start:0x02075098 end:0x020759f4
+
+src/link/wifi_matching.c:
+    .text       start:0x020791b8 end:0x0207a160
+
+src/engine/save/card_backup.c:
+    .text       start:0x0207b2e0 end:0x0207c648
+
+src/battle/sprite_slots.c:
+    .text       start:0x0207c648 end:0x0207d0fc
+
+src/battle/unit_panel_draw.c:
+    .text       start:0x0207d0fc end:0x0207e074
+
+src/battle/unit_panels.c:
+    .text       start:0x0207e074 end:0x0207e874
+
+src/battle/ability_bonus.c:
+    .text       start:0x0207ff98 end:0x020808f0
+
+src/battle/battle_state.c:
+    .text       start:0x020808f0 end:0x0208110c
+
+src/battle/link_party.c:
+    .text       start:0x0208110c end:0x02081a5c
+
+src/menus/name_entry/name_entry.c:
+    .text       start:0x02081a5c end:0x020833ec
+
+src/engine/palette/palette_buffers.c:
+    .text       start:0x020833ec end:0x02083ed8
+
+src/engine/palette/palette_fade.c:
+    .text       start:0x02083ed8 end:0x02084794
+
+src/engine/palette/palette_upload.c:
+    .text       start:0x02084794 end:0x02084ff4
+
+src/engine/bg/bg_layers.c:
+    .text       start:0x02084ff4 end:0x02086df4
+
+src/engine/system/display.c:
+    .text       start:0x02086df4 end:0x02087adc
+
+src/engine/script/cmd_screen.c:
+    .text       start:0x02087adc end:0x02089604
+
+src/engine/script/cmd_window.c:
+    .text       start:0x02089604 end:0x02089f48
+
+src/engine/script/cmd_message.c:
+    .text       start:0x02089f48 end:0x0208a75c
+
+src/engine/script/cmd_menu.c:
+    .text       start:0x0208a75c end:0x0208af6c
+
+src/engine/script/cmd_gamestate.c:
+    .text       start:0x0208af6c end:0x0208b7a0
+
+src/engine/script/cmd_choice.c:
+    .text       start:0x0208b7a0 end:0x0208bfd4
+
+src/engine/script/cmd_battle.c:
+    .text       start:0x0208c7f8 end:0x0208d084
+
+src/engine/script/cmd_farm.c:
+    .text       start:0x0208d084 end:0x0208d8b8
+
+src/engine/script/cmd_wait.c:
+    .text       start:0x0208d8b8 end:0x0208e0c8
+
+src/engine/script/cmd_fade.c:
+    .text       start:0x0208ee58 end:0x0208f720
+
+src/engine/script/cmd_thread.c:
+    .text       start:0x0208f720 end:0x0208ff7c
+
+src/engine/script/cmd_var.c:
+    .text       start:0x0208ff7c end:0x020907c4
+
+src/engine/script/actor/props.c:
+    .text       start:0x020907c4 end:0x02090fd0
+
+src/engine/script/actor/flags.c:
+    .text       start:0x02090fd0 end:0x020917e0
+
+src/engine/script/actor/anim.c:
+    .text       start:0x020917e0 end:0x02091fe8
+
+src/engine/script/actor/spawn.c:
+    .text       start:0x0209301c end:0x020938d4
+
+src/engine/script/actor/party.c:
+    .text       start:0x020938d4 end:0x020940e8
+
+src/engine/script/cmd_map.c:
+    .text       start:0x020940e8 end:0x020948f4
+
+src/engine/script/cmd_core.c:
+    .text       start:0x020948f4 end:0x02095110
+
+src/engine/script/interpreter.c:
+    .text       start:0x02095110 end:0x020964ec
+
+src/eggs/family_tree_sprites.c:
+    .text       start:0x02097cc4 end:0x020985d0
+
+src/eggs/egg_breeding.c:
+    .text       start:0x02098e08 end:0x02099ca8
+
+src/eggs/egg_hatch.c:
+    .text       start:0x02099ca8 end:0x0209a524
+
+src/link/farm_visit.c:
+    .text       start:0x0209a524 end:0x0209c224
+
+src/link/exchange_data.c:
+    .text       start:0x0209c224 end:0x0209ca70
+
+src/engine/text/text_args.c:
+    .text       start:0x0209ca70 end:0x0209d2a8
+
+src/engine/text/text_banks.c:
+    .text       start:0x0209d2a8 end:0x0209dad0
+
+src/menus/experience/experience_screen.c:
+    .text       start:0x0209ec68 end:0x0209f980
+
+src/engine/save/progress.c:
+    .text       start:0x0209f980 end:0x020a0198
+
+src/engine/save/game_state.c:
+    .text       start:0x020a0198 end:0x020a09c0
+
+src/engine/digimon/species_flags.c:
+    .text       start:0x020a09c0 end:0x020a11e0
+
+src/engine/digimon/game_data.c:
+    .text       start:0x020a11e0 end:0x020a1c1c
+
+src/engine/digimon/digimon_records.c:
+    .text       start:0x020a2894 end:0x020a3098
+
+src/engine/system/display_modes.c:
+    .text       start:0x020a3098 end:0x020a45c0
+
+src/engine/ui/gauge.c:
+    .text       start:0x020a45c0 end:0x020a503c
+
+src/engine/text/print_text.c:
+    .text       start:0x020a503c end:0x020a5848
+
+src/engine/text/text_object.c:
+    .text       start:0x020a5848 end:0x020a6808
+
+src/engine/text/window_text.c:
+    .text       start:0x020a6808 end:0x020a725c
+
+src/engine/window/dialogue_window.c:
+    .text       start:0x020a725c end:0x020a7bac
+
+src/engine/window/window_draw.c:
+    .text       start:0x020a85a0 end:0x020a8dcc
+
+src/engine/window/window.c:
+    .text       start:0x020a8dcc end:0x020a9610
+
+src/engine/text/font.c:
+    .text       start:0x020a9610 end:0x020aa2e4
+
+src/title/title_menu.c:
+    .text       start:0x020aa2e4 end:0x020ac01c
+
+src/engine/window/message_box.c:
+    .text       start:0x020ac01c end:0x020ac884
+
+src/engine/ui/digimon_list.c:
+    .text       start:0x020ad0cc end:0x020b10d8
+
+src/engine/ui/buttons.c:
+    .text       start:0x020b10d8 end:0x020b2924
+
+src/farm/farm_task.c:
+    .text       start:0x020b2924 end:0x020b3584
+
+src/farm/farm_groups.c:
+    .text       start:0x020b48a4 end:0x020b50ac
+
+src/link/wifi.c:
+    .text       start:0x020b50ac end:0x020b66ac
+
+src/link/sjis.c:
+    .text       start:0x020b66ac end:0x020b6bd8
+
+src/link/link_transfer.c:
+    .text       start:0x020b8a80 end:0x020b8c40
+
+src/field/actors/actor_commands.c:
+    .text       start:0x020c2070 end:0x020c28a4
+
+src/field/actors/actor_save_flash.c:
+    .text       start:0x020c28a4 end:0x020c30ec
+
+src/field/actors/route_commands.c:
+    .text       start:0x020c30ec end:0x020c390c
+
+src/field/actors/route_run.c:
+    .text       start:0x020c390c end:0x020c4450
+
+src/field/actors/actor_walk.c:
+    .text       start:0x020c4450 end:0x020c4c70
+
+src/field/actors/actor_facing.c:
+    .text       start:0x020c5fe4 end:0x020c6858
+
+src/field/actors/actor_create.c:
+    .text       start:0x020c7108 end:0x020c79fc
+
+src/ending/staff_roll.c:
+    .text       start:0x020c8de4 end:0x020c9a28
+
+src/menus/farm_stats/sections.c:
+    .text       start:0x020cad30 end:0x020cb538
+
+src/menus/farm_stats/stats_screen.c:
+    .text       start:0x020cb538 end:0x020cd070
+
+src/menus/farm_stats/stats_open.c:
+    .text       start:0x020cd070 end:0x020cdd70
+
+src/menus/shop/farm_shops.c:
+    .text       start:0x020cdd70 end:0x020d1ffc
+
+src/menus/shop/item_equipment_shop.c:
+    .text       start:0x020d1ffc end:0x020d5598
+
+src/menus/shop/shop_ui.c:
+    .text       start:0x020d5598 end:0x020d5f14
+
+src/battle/equip_bonus.c:
+    .text       start:0x0207e874 end:0x0207f118
+
+src/engine/script/operand.c:
+    .text       start:0x0208bfd4 end:0x0208c7f8
+
+src/battle/exp_level_up.c:
+    .text       start:0x0207f118 end:0x0207ff98
+
+src/engine/script/message.c:
+    .text       start:0x0208e0c8 end:0x0208ee58
+
+src/eggs/family_tree.c:
+    .text       start:0x020985d0 end:0x02098e08
+
+src/engine/window/choice_dialog.c:
+    .text       start:0x020a7bac end:0x020a85a0
+
+src/farm/farm_commands.c:
+    .text       start:0x020b3584 end:0x020b48a4
+
+src/field/actors/actor_tasks.c:
+    .text       start:0x020c8410 end:0x020c8de4
+
+src/engine/script/actor/move.c:
+    .text       start:0x02091fe8 end:0x020927f0
+
+src/engine/script/actor/walk.c:
+    .text       start:0x020927f0 end:0x0209301c
+
+src/items/equipment.c:
+    .text       start:0x0205b8ac end:0x0205c0e8
+
+src/items/inventory_queries.c:
+    .text       start:0x0205c0e8 end:0x0205c8ec
+
+src/menus/quests/quest_list.c:
+    .text       start:0x0207a160 end:0x0207b2e0
+
+src/link/exchange_panels.c:
+    .text       start:0x020678bc end:0x02068174
+
+src/eggs/egg_list.c:
+    .text       start:0x02096d38 end:0x02097cc4
+
+src/menus/widgets/unit_panel_slots.c:
+    .text       start:0x0204c7b8 end:0x0204d144
+
+src/eggs/egg_panel.c:
+    .text       start:0x020964ec end:0x02096d38
+
+src/field/actors/actor_update.c:
+    .text       start:0x020c4c70 end:0x020c5fe4
+
+src/menus/farm_stats/ability_pages.c:
+    .text       start:0x020c9a28 end:0x020cad30
+
+src/menus/widgets/item_displays.c:
+    .text       start:0x0204f098 end:0x020530ec
+
+src/menus/widgets/skill_displays.c:
+    .text       start:0x020530ec end:0x02056f64
+
+src/link/training_menu.c:
+    .text       start:0x0206e38c end:0x0206ec70
+
+src/link/wifi_matching_screen.c:
+    .text       start:0x020759f4 end:0x02077664
+
+src/field/actors/actor_files.c:
+    .text       start:0x020c6858 end:0x020c7108
+
+src/engine/sprite/sprite_resources.c:
+    .text       start:0x020400f8 end:0x02040c38
+
+src/menus/field_menu/panel.c:
+    .text       start:0x020489b8 end:0x02049824
+
+src/menus/widgets/item_menu_panel.c:
+    .text       start:0x0204e710 end:0x0204f098
+
+src/menus/widgets/number_display.c:
+    .text       start:0x02056f64 end:0x02057770
+
+src/engine/digimon/digivolution.c:
+    .text       start:0x020a1c1c end:0x020a2894
+
+src/menus/widgets/icon_display.c:
+    .text       start:0x0204d9cc end:0x0204e710
+
+src/menus/shop/shop.c:
+    .text       start:0x020d5f14 end:0x020d6124

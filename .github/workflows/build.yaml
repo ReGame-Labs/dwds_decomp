@@ -1,0 +1,66 @@
+name: build
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  build:
+    # The original ROM lives in a private repository that only this
+    # repository's own runs can read, so builds from forks are skipped.
+    if: >-
+      github.repository == 'ReGame-Labs/dwds_decomp' &&
+      (github.event_name != 'pull_request' ||
+       github.event.pull_request.head.repo.full_name == github.repository)
+    runs-on: ubuntu-24.04
+    strategy:
+      fail-fast: false
+      matrix:
+        version: [usa]
+    name: build (${{ matrix.version }})
+    env:
+      VERSION: ${{ matrix.version }}
+    steps:
+    - uses: actions/checkout@v5
+      with:
+        persist-credentials: false
+
+    - uses: actions/checkout@v5
+      with:
+        repository: ReGame-Labs/dwds_decomp_dependencies
+        ssh-key: ${{ secrets.DWDS_DEPENDENCIES_SSH_KEY }}
+        path: dependencies
+        persist-credentials: false
+
+    - run: |
+        cp "dependencies/$VERSION/baserom_dwds_$VERSION.nds" extract/
+        rm -rf dependencies
+
+    - uses: actions/setup-python@v6
+      with:
+        python-version: '3.12'
+        cache: pip
+        cache-dependency-path: tools/requirements.txt
+
+    - run: pip install -r tools/requirements.txt
+
+    # The first configure only knows how to download the tools; the second
+    # one, with dsd there, writes the whole build.
+    - run: |
+        python tools/configure.py "$VERSION"
+        ninja download_tools
+        python tools/configure.py "$VERSION"
+
+    - run: ninja check report
+
+    # check only links the files marked complete; the rest are compared here
+    - run: python tools/check_matched.py "$VERSION"
+
+    # NON_MATCHING code, #if 0 and assembly in place of C never go in
+    - run: python tools/hacks.py
+
+    - uses: actions/upload-artifact@v6
+      with:
+        name: ${{ matrix.version }}_report
+        path: build/${{ matrix.version }}/report.json
